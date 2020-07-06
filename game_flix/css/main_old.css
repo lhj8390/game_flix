@@ -1,0 +1,328 @@
+body{
+    height: 100vh;
+    background-color: black;
+    
+}
+#mainPage {
+    
+    padding-left: 50px;
+    min-height: 600px;
+}
+
+#main {
+    overflow: auto;
+    
+
+}
+
+#main h1 {
+    display: block;
+    color: white;
+    font-size: 15px;
+}
+
+#main .items {
+    color: white;
+    overflow: visible;
+    vertical-align: middle;
+    margin-bottom: 50px;
+}
+
+
+#main .items img:hover {
+    transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -moz-transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -o-transform: scale(1.3);
+    z-index: 2;
+}
+
+
+.closeButton {
+    position: absolute;
+    right: 10px; top: 10px;
+    cursor: pointer;
+    color: white;
+    z-index: 5;
+    font-size: 50px;
+}
+
+.picture {
+
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-right: 0px;
+    overflow: hidden;
+    display: table-row;
+    
+}
+
+.picture .gradient_video {
+    float: right;
+    width: 70%;
+    position: relative;
+    display: table-cell;
+}
+
+.picture video {
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    padding: 0px 0px;
+}
+
+.picture .gradient {
+    height: 100%;
+    width: 90%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 2;
+    background: linear-gradient(to right, rgb(0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+.explain_data{
+    display: table-cell;
+    width: 30%;
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.picture .explain {
+    
+    
+    width: 100%;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.explain .title {
+    color: white;
+    font-size: 2em;
+    height: 20%;
+    margin-top: 5%;
+    margin-left: 15%;
+}
+
+.explain .title p {
+    margin: 0;
+}
+
+.explain .description {
+    
+    color: white;
+    font-size: 1em;
+    height: 50%;
+    overflow: auto;
+    margin-left: 15%;
+}
+
+.explain .buttons {
+    height: 20%;
+    height: auto;
+    margin-bottom: 15%;
+    margin-left: 15%;
+    
+}
+
+.explain .buttons .download {
+    width: 90px;
+    background-color: red;
+    border: none;
+    color: #fff;
+    padding: 5px 0;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+
+    cursor: pointer;
+
+}
+
+.explain .buttons .download:hover {
+
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+
+}
+
+button.like {
+    width: 30px;
+    height: 30px;
+    margin: 0 0;
+    line-height: 26px;
+    border-radius: 50%;
+
+    border-width: 1px;
+    font-size: 15px;
+}
+
+button.like:hover {
+    border: none;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+
+
+button.dislike {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    line-height: 26px;
+    border-radius: 50%;
+
+    border-width: 1px;
+    font-size: 15px;
+}
+
+button.dislike:hover {
+    border: none;
+    background-color: black;
+    color: white;
+    border: 1px solid red;
+}
+
+.bxslider{
+    background-color: black;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: none;
+    
+}
+.bxslider img{
+    
+    vertical-align: middle;
+    display: inline-block;
+    float: none !important;
+    
+    
+}
+.bx-wrapper .bx-pager.bx-default-pager a:hover,
+.bx-wrapper .bx-pager.bx-default-pager a.active,
+.bx-wrapper .bx-pager.bx-default-pager a:focus {
+  background: #fdf5e6;
+}
+.bx-wrapper{border:none; box-shadow: none; 
+    background-color: black;}
+.bx-viewport{
+    height:200px !important;
+    
+}
+
+
+
+/* game 장르 텍스트 스타일*/
+
+.gameTable{
+    height: 150px;
+   
+    padding-bottom: 110px;
+
+}
+    
+    
+    
+
+.boxText{
+    color: white;
+    font-size: 2em;
+    float: left;
+}  
+
+
+.gameText{
+    
+    font-size: 35px;
+    font-family: impact;
+    font-weight:800;
+    color: rgb(216, 210, 199);
+}
+.gameLeftText{
+    width: 80px;
+    margin-left: 80px;
+    font-size: 35px;
+    font-family: impact;
+    color: rgb(216, 210, 199);
+    padding-right: 0px;
+}
+
+
+/* game 박스 스타일*/
+.selectbox {
+    text-align: center;
+    position: relative;
+    width: 100px;  
+    border: 2px solid rgb(201, 188, 188) ; 
+    border-radius: 15px;
+    margin-left: 30px;
+    margin-top: 5px;
+    background-color: rgb(19, 18, 18);
+    float: left;
+    height: 45px;
+    }
+    
+    
+.selectbox:before { /* 가상 선택자를 활용 화살표 대체 (화살표 스타일)*/
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    
+    margin-top: -1px;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid rgb(212, 10, 10);
+    }
+    
+.selectbox label { /*박스안의 Game 글씨 스타일*/
+    position: absolute;
+    margin-left: 10px;
+    margin-top: 5px;
+    color: rgb(226, 215, 215);
+     
+    }
+    
+.selectbox select {
+    
+    font-family: inherit;  /* 폰트 상속 */
+    padding: .8em .5em;  /* 여백과 높이 결정 */
+    
+    opacity: 0;  /* 숨기기 */
+    
+    -webkit-appearance: none; /* 네이티브 외형 감추기 */
+
+    
+    }
+
+#select { /*박스를 펼칠때 카테고리 스타일*/
+
+    
+        
+        background-color: rgb(32, 31, 31);
+        width: 300px;
+        color: white;
+    
+        }
+
+
+.label{
+            text-align: center;
+            margin-left: 50px;
+            margin-top: -1px;
+            font-style: impact;
+            font-size: 1.3em;
+            
+        }
+    
+    

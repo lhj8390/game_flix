@@ -1,0 +1,35 @@
+body {
+	background-color: black;
+}
+#div_center_x{      
+    background-color: black;
+}
+#div_center_y{
+    margin : 20px auto; 
+    background-color: black;
+}
+.member_table {	
+    width: 400px;
+    height: 450px;
+    color: white;
+    text-align: center;    
+      
+}
+fieldset {	
+	width: 410px;
+	border: 1px solid white;
+	border-radius : 15px;
+	display: block;
+	margin: 0 auto;  
+}
+.btn {
+	border-radius: 8px;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rgb(177, 166, 166);
+    background-color:  rgb(177, 166, 166);	
+    font-weight: bold;
+}
+.btn:hover {
+	background-color:  white;
+}

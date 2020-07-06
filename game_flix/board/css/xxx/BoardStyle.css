@@ -1,0 +1,150 @@
+*{  
+    margin:0;
+    padding: 0;
+	
+	
+}
+.container{
+	background-color: rgb(255, 255, 255);
+	width:100%;
+	margin-top: 50px;
+}
+
+
+table{
+    border-collapse: collapse;
+}
+
+
+
+
+a{
+    text-decoration: none;
+    color:inherit;
+}
+
+
+
+.board_list_wrap{
+    
+   	
+   
+    
+    
+    min-height: 500px;
+    margin:auto;
+  
+}
+
+.board_list{
+	
+	margin:0 auto;
+    width: 1200px;
+    border-top: 2px solid  white;
+}
+
+.board_list tr{
+    border-bottom: 2px solid rgb(156, 146, 146);
+
+}
+
+
+.board_list th,
+.board_list td{
+    
+    padding: 20px;
+    font-size: 15px;
+    
+}
+
+.board_list td{
+    text-align: center;
+}
+
+.board_list .tit{
+    text-align: left;
+}
+
+.board_list .tit:hover{
+    text-decoration: underline;
+}
+
+.board_list_wrap .paging{
+    margin-top: 20px ;
+    text-align: center;
+    font-size: 0;
+    padding: 50px;
+}
+
+.table_caption{
+    font-size: 70px;
+    margin-top: 0px;
+    padding-top: 2px; 
+    padding-bottom: 60px;
+}
+
+
+.board_list_wrap .paging a{
+    display: inline-block;
+    margin-left: 10px;
+    padding:5px 10px;
+    
+    border-radius: 27px; 
+    font-size: 15px;
+}
+
+.board_list_wrap .paging a:first-child {
+    margin:center;
+}
+
+.board_list_wrap .paging a.bt{
+    
+  border:1px solid rgb(27, 5, 5);
+  background: rgb(177, 166, 166);
+}
+.board_list_wrap .paging a.bt:hover{
+    border:1px solid white;
+    background: black;
+    color: white;
+  }
+.board_list_wrap .paging a.num{
+    border: 1px solid  white;
+    font-weight: 700;
+}
+.board_list_wrap .paging a.num.on {
+    background: rgb(20, 20, 20);
+    color: rgb(248, 248, 248);
+}
+
+.btn_write{
+    border: 2px solid rgb(226, 10, 10);
+    background-color:  rgb(177, 166, 166);
+    margin-left: 0px;
+  
+    
+
+    border-radius: 27px;
+    padding: 10px;
+    font-family: Impact;
+    font-size: 1em;
+    width: 60px;
+    margin-left:1500px;
+    
+  
+
+}
+
+.btn_write:hover{
+    border: 2px solid rgb(0, 0, 0);
+    background-color:  rgb(255, 255, 255);
+    margin-left: 0px;
+  
+    
+  
+
+}
+
+.border_tr{
+    background-color: rgb(209, 199, 199);
+    
+}

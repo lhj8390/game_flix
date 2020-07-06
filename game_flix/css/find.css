@@ -1,0 +1,81 @@
+#mainPage {
+    background-color: black;    
+    min-height: 600px;
+}
+#main {
+    overflow: auto;
+}
+section>div{
+    margin: 0 auto;
+    height: 100px;    
+    background-color: black;    
+}
+#div_center_x{
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    background-color: black;
+}
+#div_center_y{
+    margin: 0 auto;
+    width: 350px;
+    height: 200px;
+    background-color: black;
+}
+#div_url{
+    margin: 0 auto;
+    width: 250px;
+    font-size: 0.75em;    
+    text-align: center;
+    padding-top: 10px;       
+}
+fieldset{
+    margin: 0 auto;
+    height: 150px;
+    width: 300px;
+    border-radius: 10px;
+    color: red;    
+}
+table, th, td{
+    margin: 0 auto;
+    border-top: 10px;
+    font-size: 1em;
+    text-align: center;
+    border-spacing: 5px;
+}
+#input_a{
+    height: 40px;
+    width: 280px;
+}
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: block;
+    
+}
+footer table{
+    width: 50%;
+    height: 100px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0 20px;
+    
+}
+footer table tr{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+footer table tr td a{
+    text-decoration: none;
+    color: gray;
+}
+footer table tr td a:hover{
+    text-decoration: underline;
+}
+footer p{
+    padding-top: 20px;
+    text-align: center;
+}

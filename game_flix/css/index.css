@@ -1,0 +1,192 @@
+body{
+  background:url('/images/Monte\ Carlo.jpg');
+  margin: 0px;
+  
+
+}
+
+
+
+.content{
+    text-align: center;
+    min-height: 500px;
+}
+.loading{
+    
+    color: red;
+    word-spacing: 38px;
+    font-family: impact;
+    margin-top: 150px;
+}
+
+
+
+.loading span {
+  background: transparent;
+    display: inline-block;
+    margin: 0 -.075em;
+    animation: loading .70s infinite alternate;
+    
+  }
+  .loading span:nth-child(1) {
+   
+    animation-delay: .1s;
+  }
+  .loading span:nth-child(2) {
+ 
+    animation-delay: .2s;
+  }
+  .loading span:nth-child(3) {
+    
+    animation-delay: .3s;
+  }
+  .loading span:nth-child(4) {
+    
+    animation-delay: .4s;
+  }
+  .loading span:nth-child(5) {
+   
+    animation-delay: .5s;
+  }
+  .loading span:nth-child(6) {
+   
+    animation-delay: .6s;
+  }
+  .loading span:nth-child(7) {
+    
+    animation-delay: .7s;
+  }
+  .loading span:nth-child(8) {
+    
+    animation-delay: .8s;
+  }
+  @keyframes loading {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(0.8);
+    }
+  }
+
+  
+span {
+  font-size: 17em;
+  font-family: impact;
+  display: block;
+}
+
+
+.loading {
+  perspective: 1000px;
+  perspective-origin: 50% 0;
+}
+
+
+.loading span {
+  transform-origin: 0 0;
+  transform: scaleX(80) rotateY(89.5deg);
+}
+
+.loginMember_button button {
+
+    background-color: rgb(53, 49, 49);
+  
+    border: black;
+  
+    color: rgb(240, 226, 226);
+  
+    padding: 15px 30px;
+  
+    font-size: 16px;
+  
+    cursor: pointer;
+
+    border-radius: 20px;
+  
+    margin-top: 100px;
+    z-index: 1;
+  }
+
+
+  
+.button:hover {
+    background-color: #f44336;
+    color: white;
+    
+  }
+
+
+
+.button1{
+    width: 190px;
+    text-decoration:none ;
+}
+
+.button2{
+    margin-left: 50px;
+    width: 190px;
+
+}
+
+.button1 a{
+    text-decoration:none ;
+    background-color:  rgb(53, 49, 49);
+}
+.button1 a:hover{
+    background-color: #f44336;
+}
+
+
+
+footer {
+   
+   
+  width: 100%;
+  height: 135px;
+  color: blanchedalmond;
+  background:url('/images/footer.jpg');
+  position: absolute;
+  bottom: 0px;
+  border-radius: 300px 300px 0px 0px;
+}
+.footer_style{
+  text-align: center;
+}
+footer ul{
+  float: right;
+   
+  list-style: none;  
+   
+}
+footer ul li{
+  padding-top: 15px;
+  
+  float: left;
+  
+}
+footer ul li a{
+   
+   
+ 
+  padding-right: 30px;
+  
+}
+.footer_li1{
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.footer_li4{
+
+  padding-right: 350px;
+}
+
+footer p{
+  padding-top: 50px;
+  margin-left: 630px;
+  margin-right: 0px;
+  color: blanchedalmond;
+  font-size: 30px;
+  font-weight: bold;
+}

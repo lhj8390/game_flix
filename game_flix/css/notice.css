@@ -1,0 +1,102 @@
+* {
+    background-color: black;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100px;
+    margin-bottom: 50px;
+
+}
+
+.table {
+    border-collapse: separate;
+    border-spacing: 0.5px;
+    text-align: left;
+    line-height: 20px;
+    border-top: 3px solid white;
+    margin: 20px 100px;
+    color: white;
+
+}
+
+.table caption {
+    color: red;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.table th {
+    width: 350px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 15px;
+    vertical-align: top;
+    border-bottom: 1px solid white;
+
+}
+
+.table td {
+    width: 350px;
+    padding: 5px;
+    vertical-align: top;
+    border-bottom: 3px solid white;
+}
+
+td:nth-child(1) {
+    width: 10%;
+}
+
+td:nth-child(2) {
+    width: 60%;
+}
+
+td:nth-child(3) {
+    width: 20%;
+}
+
+td:nth-child(4) {
+    width: 10%;
+}
+
+.pagination {
+    display: inline-block;
+    justify-content: center;
+    display: flex;
+}
+
+.pagination a {
+    float: left;
+    text-decoration: none;
+    border: 1px solid #ddd;
+    font-size: 15px;
+    padding: 8px 16px;
+    text-align: center;
+    color: white;
+}
+.pagination a:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}
+.modify{
+    overflow: auto;
+    color: white;
+    display: block;
+    margin-right: 100px;
+}
+.modify button{
+    color: white;
+    margin-left: 10px;
+    float: right;
+    border: 1px solid white;
+    margin-bottom: 20px;
+    transition-duration: 0.4s;
+}
+.modify button:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+}

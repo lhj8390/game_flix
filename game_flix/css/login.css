@@ -1,0 +1,87 @@
+#mainPage {
+    background-color: black;    
+    min-height: 600px;
+}
+#main {
+    overflow: auto;
+}
+section>div{
+    margin: 0 auto;
+    height: 200px;    
+    background-color: black;    
+}
+#div_center{
+    margin: 0 auto;
+    width: 350px;
+    background-color: black;
+}
+#div_url{
+    margin: 0 auto;
+    width: 250px;
+    font-size: 0.75em;    
+    text-align: center;
+    padding-top: 10px;       
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    text-align: center;    
+}
+
+section>div>fieldset{
+    margin: 0 auto;    
+}
+input{
+    margin: 0 auto;   
+    height: 50px;
+    width: 340px;
+    border: 1px solid black;
+    font-size: 1.2em;
+    text-align: center;
+    font-weight: bold;
+    display: block;
+}
+
+
+
+footer {
+    width: 100%;
+    height: 300px;
+    display: block;
+    
+}
+footer table{
+    width: 50%;
+    height: 100px;
+    padding-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0 20px;
+    
+}
+footer table tr{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 15px;
+}
+footer table tr td a{
+    text-decoration: none;
+    color: gray;
+}
+footer table tr td a:hover{
+    text-decoration: underline;
+}
+footer p{
+    padding-top: 20px;
+    text-align: center;
+}
+.elementToFadeInOut {
+	width: 100%;
+  height: 800px;
+  background: url('/images/logo.png') no-repeat center center;
+  display: none;
+  position: absolute;
+  left: 0;
+  top:0;
+  z-index: 9999;
+}

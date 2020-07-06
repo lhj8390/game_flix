@@ -1,0 +1,33 @@
+footer {
+	padding-top : 50px;
+    position: relative;
+    height: 300px;
+    display: block;
+    background-color: black;
+    
+}
+footer table{
+    width: 800px;    
+    padding-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-spacing: 0 15px;    
+}
+footer table tr{
+    text-align: center;  
+}
+footer table tr td a{
+    text-decoration: none;
+    color: gray;
+    font-size: 12px;
+}
+footer table tr td a:hover{
+    text-decoration: underline;
+}
+footer p{
+    padding-top: 30px;
+    text-align: center;
+    color: blanchedalmond;
+    font-size: 30px;
+    font-weight: bold;
+}
