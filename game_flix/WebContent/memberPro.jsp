@@ -10,7 +10,7 @@
 <%
 	request.setCharacterEncoding("utf-8");
 %>
-<jsp:useBean id="member" class="org.fullstack.beans.Members" />
+<jsp:useBean id="member" class="member.Members" />
 <jsp:setProperty property="*" name="member" />
 <meta charset="UTF-8">
 <title>JOIN PRO</title>
