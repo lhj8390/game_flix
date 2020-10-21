@@ -6,7 +6,7 @@ public class board {
 	String description;
 	String num_check;
 	String writer;
-	String updateDate;
+	String regdate;
 	public int getId() {
 		return id;
 	}
@@ -37,24 +37,26 @@ public class board {
 	public void setWriter(String writer) {
 		this.writer = writer;
 	}
-	public String getUpdateDate() {
-		return updateDate;
+	
+	public String getRegdate() {
+		return regdate;
 	}
-	public void setUpdateDate(String updateDate) {
-		this.updateDate = updateDate;
+	public void setRegdate(String regdate) {
+		this.regdate = regdate;
 	}
 	public board() {
 		
 	}
-	public board(int id, String title, String description, String num_check, String writer, String updateDate) {
-		
+	public board(int id, String title, String description, String num_check, String writer, String regdate) {
+		super();
 		this.id = id;
 		this.title = title;
 		this.description = description;
 		this.num_check = num_check;
 		this.writer = writer;
-		this.updateDate = updateDate;
+		this.regdate = regdate;
 	}
+	
 	
 	
 }

@@ -90,7 +90,7 @@ finally {
 <div class="thumbnails">
 <c:forEach var="item" items="<%=gameList%>">
 <div class="box">
-<a href="${item.videoLink }" data-poptrox="iframe,800x400" class="image fit"><img src="${item.imageLink}" alt="" /></a>
+<a href="${item.videoLink }" data-poptrox="iframe,800x400" class="image fit"><img src="../${item.imageLink}" alt="" /></a>
 <div class="inner">
 <h3>${item.title }</h3>
 <p>${item.description }</p>
@@ -108,7 +108,7 @@ finally {
 				<div class="bxslider">
 					<!--이미지 슬라이더-->
 					<c:forEach var="item" items="<%=recommendList%>">
-						<img src="${item.imageLink }" width="300" height="150"
+						<img src="../${item.imageLink }" width="300" height="150"
 							class="item_Picture" onclick="openImg('panel${item.id}')">
 					</c:forEach>
 				</div>

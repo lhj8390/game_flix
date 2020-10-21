@@ -75,7 +75,7 @@ try {
 <div class="thumbnails">
 <c:forEach var="item" items="<%=gameList%>">
 <div class="box">
-<a href="${item.videoLink}" class="image fit"><img src="${item.imageLink}" alt=""/></a>
+<a href="${item.videoLink}" class="image fit"><img src="../${item.imageLink}" alt=""/></a>
 <div class="inner">
 <h3>${item.title }</h3>
 <p>${item.description }</p>

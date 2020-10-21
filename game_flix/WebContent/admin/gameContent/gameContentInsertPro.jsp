@@ -29,8 +29,8 @@ try{
 	ds = (DataSource)ic.lookup("java:comp/env/jdbc/bizmooc");
 	conn = ds.getConnection();
 	ps = conn.prepareStatement("insert into gamecontent"+
-	"(title,description,imagelink,videolink,downloadlink,category,updatetime)"+
-	"values(?,?,?,?,?,?,DEFAULT)");
+	"(id,title,description,imagelink,videolink,downloadlink,category,updatetime)"+
+	"values(gamecontent_seq.nextval,?,?,?,?,?,?,DEFAULT)");
 	ps.setString(1, title);
 	ps.setString(2, description);
 	ps.setString(3, imageLink);

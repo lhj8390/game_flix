@@ -35,7 +35,7 @@
 		DataSource ds = (DataSource) ic.lookup("java:comp/env/jdbc/bizmooc");
 		Connection con = ds.getConnection();
 		ps = con.prepareStatement("insert into board" + 
-		"(title,description,num_check,writer)" + "values(?,?,?,?)"); 
+		"(id,title,description,num_check,writer)" + "values(board_seq.nextval,?,?,?,?)"); 
 
 	
 		
